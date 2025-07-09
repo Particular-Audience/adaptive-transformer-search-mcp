@@ -1,0 +1,28 @@
+[project]
+name = "mcp-search-server"
+version = "0.1.0"
+description = "MCP Search Server"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi>=0.95.0",
+    "uvicorn>=0.21.0",
+    "requests>=2.28.0",
+    "pydantic>=1.10.7",
+    "mcp>=0.5.0",
+    "mcp-use>=1.2.0",
+    "fastembed>=0.4.2",
+    "python-dotenv>=1.0.0",
+    "gql>=3.0.0",
+    "requests-toolbelt>=1.0.0"
+]
+
+[scripts]
+server = "mcp_search_server:main"
+
+[tool.setuptools]
+py-modules = ["mcp_search_server"]
+
+[tool.setuptools.packages.find]
+include = ["mcp_search_server"]
+exclude = ["sample_usage.py"] 
