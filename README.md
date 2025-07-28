@@ -28,6 +28,35 @@ This MCP server provides three main search tools that interface with the Particu
 
 The server handles authentication automatically and provides comprehensive error handling and retry logic. All searches benefit from ATS's transformer technology, eliminating zero search results and providing intelligent, relevant product matches.
 
+## ATS Capabilities Available Through This MCP Server
+
+When you use this MCP server, you get access to all Adaptive Transformer Search capabilities:
+
+### Natural Language Understanding
+- Understands semantic meaning behind queries (e.g., "chocolate milk" vs "milk chocolate")
+- Handles natural language queries like "comfortable shoes for walking under $100"
+- Processes misspellings and variations automatically
+
+### Intelligent Search Results
+- Eliminates zero search results by up to 70%
+- Provides relevant results even when exact keyword matches don't exist
+- Understands product relationships and context
+
+### Merchandising Control
+- Boost specific products, brands, or categories in search results
+- Control ranking based on promotional campaigns, inventory, or margin objectives
+- Maintain business control while leveraging AI intelligence
+
+### Retail Media Integration
+- Seamlessly integrate sponsored products into search results
+- Maintain relevance while creating revenue opportunities
+- Intelligent placement of retail media content
+
+### Zero Manual Maintenance
+- No need for synonym rules, redirects, or manual search configuration
+- Automatically adapts to changes in user behavior and catalog data
+- Reduces manual search management work by 99%
+
 ## Connecting to Onsite LLM/Chat Agents
 
 This MCP server enables seamless integration of ATS into your existing LLM-powered chat agents and discovery experiences. By connecting this server to your onsite AI assistant, customers can now search your product catalog using natural language through chat interfaces. The AI can understand complex queries like "show me comfortable shoes for walking that are under $100" and return relevant results, even if the customer doesn't use exact product names or categories. This creates a more intuitive, conversational shopping experience that feels natural to customers while driving higher conversion rates.
